@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(214, 214, 214);
+}
+
+.container{
+
+    background-color: white;
+    margin:auto;
+    width:70%;
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px  rgb(235, 235, 235);
+    position:relative;
+
+}
+
+.ER{
+    position:absolute;
+    right:30px;
+    background-color:rgb(238, 110, 46);
+    padding:5px 12px;
+    border-radius:10px;
+    color:white;
+    font-size:12px;
+    margin-top:-10px;
+}
+
+.params{
+    font-family: 'georgia', sans-serif;
+    display:flex;
+    gap:20px;
+    font-size:13px;
+}
+
+hr{
+    margin-top:20px;
+    border:1px rgb(231, 231, 231) solid;
+}
+
+section h2{
+    border-left:4px rgb(255, 104, 34) solid;
+    padding-left:10px;
+
+}
+
+ul li{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:13px;
+    color:rgb(110, 110, 110);
+    letter-spacing:0.5px;
+    word-spacing:5px;
+    list-style-type:none;
+    border-bottom:1px rgba(226, 226, 226, 0.542) solid;
+    padding-bottom:8px;
+    padding-top:5px;
+    margin-left:-40px;
+}
+ul li::before{
+    content:"✓";
+    color:rgb(255, 104, 34);
+    margin-right:12px;
+}
+
+ol li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    color: rgb(110, 110, 110);
+    letter-spacing: 0.5px;
+    word-spacing: 5px;
+    padding-bottom:18px;
+    margin-left:-10px;
+    line-height:1.8;
+}
+
+ol li span{
+    background-color:rgb(255, 211, 154);
+    font-weight:bold;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+aside{
+    border-left:4px rgb(104, 104, 254) solid;
+    background-color:rgb(238, 238, 255);
+    padding:8px 2px;
+    font-size:15px;
+    border-radius:5px;
+}
+
+ 
